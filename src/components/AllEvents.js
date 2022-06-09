@@ -17,7 +17,7 @@ const AllEvents = ({ events, setEvents }) => {
     <div>
       {events?.length > 0 ? (
         <>
-          <div className="flex justify-evenly flex-wrap">
+          <div className="md:flex md:justify-evenly md:flex-wrap space-y-6 md:space-y-0 mx-3 mt-10">
             {events.map((event) => (
               <EventCard key={event._id} event={event} setEvents={setEvents} />
             ))}
@@ -25,7 +25,7 @@ const AllEvents = ({ events, setEvents }) => {
         </>
       ) : (
         <>
-          <div>
+          <div className="flex mt-20 items-center justify-center">
             <h1>You have no events yet</h1>
           </div>
         </>
