@@ -4,6 +4,8 @@
 /node_modules
 .env.local
 /.pnp
+backEnd/node_modules
+backEnd/.env
 .pnp.js
 
 # testing
