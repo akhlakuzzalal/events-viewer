@@ -13,3 +13,8 @@ Runs the app in your browser by command
 ### `npm start`
 
 Open your browser [http://localhost:3000](http://localhost:3000) to view .
+
+### `User Manual`
+
+First inter page you will shown a login page with google.
+After logged in you can add events, and also can delete event and can show your all events on right side.
